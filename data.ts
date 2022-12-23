@@ -141,6 +141,21 @@ export const projects: IProject[] = [
     ],
   },
   {
+    name: "React ecommerce-App",
+    image_path: "/images/react-ecom.png",
+    deployed_url: "https://er-manishgupta-ecommerce.netlify.app/",
+    github_url: "https://github.com/SOFTMAN387/ecommerce-ui",
+    category: [ "react"],
+    description:
+      "React eCommerce ui Design...",
+    key_techs: [
+      "Reactjs",
+      "Redux",
+      "Bootstrap",
+     
+    ],
+  },
+  {
     name: "Portfolio",
     image_path: "/images/port-app.jpeg",
     deployed_url: "https://er-manishgupta-portfolio.netlify.app/",
