@@ -126,19 +126,33 @@ export const projects: IProject[] = [
   },
 
   {
+    name: "World-Ranking-App",
+    image_path: "/images/worldranks.png",
+    deployed_url: "https://world-ranks-mu.vercel.app/",
+    github_url: "https://github.com/SOFTMAN387/world-ranks",
+    category: [ "react"],
+    description:
+      "Checking world rank by country...",
+    key_techs: [
+      "Reactjs",
+      "Nextjs",
+      "Bootstrap",
+      "tailwind",
+    ],
+  },
+  {
     name: "Portfolio",
     image_path: "/images/port-app.jpeg",
     deployed_url: "https://er-manishgupta-portfolio.netlify.app/",
     github_url: "https://github.com/SOFTMAN387/react-portfolio",
     category: [ "react"],
     description:
-      "Making user's landing page portfolio...",
+    "Making user's landing page portfolio...",
     key_techs: [
       "React",
       "Bootstrap",
     ],
   },
-
   {
     name: "Covid Tracking App",
     image_path: "/images/covid-track-app.jpeg",

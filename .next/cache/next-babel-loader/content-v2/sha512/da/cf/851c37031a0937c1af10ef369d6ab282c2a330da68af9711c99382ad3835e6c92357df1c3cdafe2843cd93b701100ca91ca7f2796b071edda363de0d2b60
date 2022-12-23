@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Next.js API route support: https://nextjs.org/docs/api-routes/introduction\nimport { services } from '../../data';\nexport default ((req, res) => {\n  //BY default get request\n  //! complex backend logic :(\n  console.log('API', services);\n  res.status(200).json({\n    services\n  });\n});","map":null,"metadata":{},"sourceType":"module"}
