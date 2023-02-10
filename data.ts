@@ -105,12 +105,22 @@ export const tools: Skill[] = [
 
 export const projects: IProject[] = [
   { 
-    name: "React Shopping-App",
+    name: "e-Commerce Shopping-App",
     description:
-      "This app shows a statistical Iphone Shopping carts.",
-    image_path: "/images/iphone-shop-app.jpeg",
-    deployed_url: "https://er-manishgupta-shopping-app.netlify.app/",
-    github_url: "https://github.com/SOFTMAN387/react-shop-app",
+      "This app shows a dynamic furniture Shopping carts.",
+    image_path: "/images/ecommapp.png",
+    deployed_url: "https://er-manishgupta-e-commerce.netlify.app/",
+    github_url: "https://github.com/SOFTMAN387/e-commerce-react-ui",
+    category: ["react"],
+    key_techs: ["React", "Redux", "Bootstrap"],
+  },
+  { 
+    name: "movies-app",
+    description:
+      "This app shows online movie watching or downloading.",
+    image_path: "/images/movieapp.jpg",
+    deployed_url: "https://er-manishgupta-e-commerce.netlify.app/",
+    github_url: "https://github.com/SOFTMAN387/e-commerce-react-ui",
     category: ["react"],
     key_techs: ["React", "Redux", "Bootstrap"],
   },
@@ -142,12 +152,12 @@ export const projects: IProject[] = [
   },
   {
     name: "React ecommerce-App",
-    image_path: "/images/react-ecom.png",
-    deployed_url: "https://er-manishgupta-ecommerce.netlify.app/",
-    github_url: "https://github.com/SOFTMAN387/ecommerce-ui",
+    image_path: "/images/iphone-shop-app.jpeg",
+    deployed_url: "https://er-manishgupta-shopping-app.netlify.app/",
+    github_url: "https://github.com/SOFTMAN387/react-shop-app",
     category: [ "react"],
     description:
-      "React eCommerce ui Design...",
+      "React mobile shop app...",
     key_techs: [
       "Reactjs",
       "Redux",

@@ -30,7 +30,7 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="/resume/mkgresume.pdf"
+        href="/resume/mkgresume1.pdf"
         download="Manish Gupta Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
@@ -71,7 +71,7 @@ const Sidebar = () => {
       >
         Email me
       </button>
-     
+
     </>
   );
 };
