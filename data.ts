@@ -119,8 +119,8 @@ export const projects: IProject[] = [
     description:
       "This app shows online movie watching or downloading.",
     image_path: "/images/movieapp.jpg",
-    deployed_url: "https://er-manishgupta-e-commerce.netlify.app/",
-    github_url: "https://github.com/SOFTMAN387/e-commerce-react-ui",
+    deployed_url: "https://er-manishgupta-movies.netlify.app/",
+    github_url: "https://github.com/SOFTMAN387/movies-app",
     category: ["react"],
     key_techs: ["React", "Redux", "Bootstrap"],
   },
