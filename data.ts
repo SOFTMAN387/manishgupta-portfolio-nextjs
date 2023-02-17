@@ -151,6 +151,21 @@ export const projects: IProject[] = [
     ],
   },
   {
+    name: "Chatting-App",
+    image_path: "/images/chatt-app.png",
+    deployed_url: "https://er-manishgupta-chatting.netlify.app/",
+    github_url: "https://github.com/SOFTMAN387/chatting-app",
+    category: [ "react",'mongo'],
+    description:
+      "Real Time Chatting With Users",
+    key_techs: [
+      "Reactjs",
+      "Firebase",
+      "Bootstrap",
+      "Scss",
+    ],
+  },
+  {
     name: "React ecommerce-App",
     image_path: "/images/iphone-shop-app.jpeg",
     deployed_url: "https://er-manishgupta-shopping-app.netlify.app/",
@@ -210,31 +225,16 @@ export const projects: IProject[] = [
       "Setting your time for break-fast...lunch as well as dinner...",
     key_techs: ["HTML", "Css", "JavaScript"],
   },
-  // {
-  //   name: "YouTube using YouTube ",
-  //   image_path: "/images/youtubeClone.png",
-  //   deployed_url: "https://not-utube.web.app/",
-  //   github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-  //   category: ["express"],
-  //   description:
-  //     'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-  //   key_techs: [
-  //     "React",
-  //     "Redux",
-  //     "Firebase Auth",
-  //     "YouTube API",
-  //     "Sass",
-  //     "Bootstrap",
-  //   ],
-  // },
-  // {
-  //   name: "Football App",
-  //   image_path: "/images/football.png",
-  //   deployed_url: "https://o-my-goal.web.app/",
-  //   github_url: "https://github.com/Dey-Sumit/football-app",
-  //   category: ["react"],
-  //   description:
-  //     "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-  //   key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
- // },
+  
+  {
+    name: "TicTacToe-Game",
+    image_path: "/images/tictactoe-game.png",
+    deployed_url: "https://er-manishgupta-tictactoe-game.netlify.app/",
+    github_url: "https://github.com/SOFTMAN387/tictactoe-game",
+    category: ["react"],
+    description:
+      "Playing Tic Tac Toe Game with one player...",
+    key_techs: ["HTML", "Css", "JavaScript"],
+  },
+  
 ];
