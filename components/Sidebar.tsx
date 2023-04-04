@@ -59,7 +59,7 @@ const Sidebar = () => {
         <div className="flex items-center justify-center">
           <GoLocation className="mr-2" /> <span>Bihar-patna,India </span>
         </div>
-        <p className="my-2 "> manishkumarpatna2020@gmail.com </p>
+        <p className="my-2 " style={{overflow:"hidden"}}> manishkumarpatna2020@gmail.com </p>
         <p className="my-2"> 6205988966 / 1234567891 </p>
       </div>
 
